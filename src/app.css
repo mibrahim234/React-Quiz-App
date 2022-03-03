@@ -75,6 +75,55 @@ flex-wrap: wrap;
     margin: 0 10px 20px 10px;
     cursor: pointer;
 }
+
+.answer:hover, 
+.answer.active {
+    background: mediumblue;
+}
+
+/* Correct Answer */
+.answer.correct{
+    animation: correct 3s ease forwards;
+}
+
+@keyframes correct {
+    0%,
+    22%,
+    42% {
+        background: mediumblue;
+    }
+    20%,
+    40%,
+    60% {
+        background: linear-gradient(#0e0124, #22074d);
+    }
+    62%,
+    100% {
+        background: green;
+    }
+}
+
+/* Wrong Answer */
+.answer.wrong{
+    animation: correct 3s ease forwards;
+}
+
+@keyframes correct {
+    0%,
+    22%,
+    42% {
+        background: mediumblue;
+    }
+    20%,
+    40%,
+    60% {
+        background: linear-gradient(#0e0124, #22074d);
+    }
+    62%,
+    100% {
+        background: red;
+    }
+}
 /* SideBar */
 .pyramid {
     width: 25%;
