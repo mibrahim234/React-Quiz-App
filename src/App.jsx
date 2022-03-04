@@ -7,7 +7,7 @@ function App() {
   const [questionNumber, setQuestionNumber] = useState(1)
   // when true the game finishes, and score is shown 
   // or wrong answer is chosen 
-  const [timeOut, setTimeout] = useState(false);
+  const [stop, setStop] = useState(false);
 
   const data = [
     {
@@ -103,7 +103,7 @@ function App() {
         <div className="bottom">
           {/* if question is correct go to next question */}
           <Trivia data={data}
-           setTimeout={setTimeout} 
+           setStop={setStop} 
           questionNumber={questionNumber}
           setQuestionNumber={setQuestionNumber}/> 
         </div>
