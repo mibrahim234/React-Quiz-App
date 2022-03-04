@@ -1,4 +1,4 @@
-export default function () {
+export default function ({data, setTimeOut, questionNumber, setQuestionNumber}) {
   return (
     <div className="trivia">
         <div className="question">Who made React?</div>

@@ -5,6 +5,78 @@ import Trivia from "./components/Trivia";
 function App() {
 
   const [questionNumber, setQuestionNumber] = useState(1)
+  // when true the game finishes, and score is shown 
+  // or wrong answer is chosen 
+  const [timeOut, setTimeout] = useState(false);
+
+  const data = [
+    {
+      id: 1,
+      question: "What is a component?",
+      answers: [
+        {
+          text: "phone",
+          correct: false,
+        },
+        {
+        text: "a piece of code",
+        correct: true, 
+        },
+        {
+          text: "cake",
+          correct: false,
+        },
+        {
+          text: "react is a component based library",
+          correct: false, 
+        }
+      ]
+    },
+    {
+      id: 2,
+      question: "What is a computer?",
+      answers: [
+        {
+          text: "phone",
+          correct: false,
+        },
+        {
+        text: "a piece of code",
+        correct: true, 
+        },
+        {
+          text: "cake",
+          correct: false,
+        },
+        {
+          text: "react is a component based library",
+          correct: false, 
+        }
+      ]
+    },
+    {
+      id: 3,
+      question: "What is a phone?",
+      answers: [
+        {
+          text: "phone",
+          correct: false,
+        },
+        {
+        text: "a piece of code",
+        correct: true, 
+        },
+        {
+          text: "cake",
+          correct: false,
+        },
+        {
+          text: "react is a component based library",
+          correct: false, 
+        }
+      ]
+    }
+  ]
   const moneyPyramid = [
     { id: 1, amount: "$ 100"},
     { id: 2, amount: "$ 200"},
@@ -29,7 +101,11 @@ function App() {
           <div className="timer">30</div>
         </div>
         <div className="bottom">
-          <Trivia /> 
+          {/* if question is correct go to next question */}
+          <Trivia data={data}
+           setTimeout={setTimeout} 
+          questionNumber={questionNumber}
+          setQuestionNumber={setQuestionNumber}/> 
         </div>
       
       </div>
