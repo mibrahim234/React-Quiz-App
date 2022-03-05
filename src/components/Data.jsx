@@ -182,7 +182,7 @@ const data = [
         question: "What is React Router?",
         answers: [
           {
-            text: "An arrow function is is used when trying to show direction or position in the code.",
+            text: "React Router is an internet box provided by the top networks.",
             correct: false,
           },
           {
@@ -190,11 +190,11 @@ const data = [
           correct: true, 
           },
           {
-            text: "The arrow function is a syntactically alternative to regular function expressions but without its own bindings to the this keyword. Functional components are created using an arrow function format",
-            correct: true,
+            text: "React Router connects components for easy navigation",
+            correct: false,
           },
           {
-            text: "An Arrow function is a directional function. When navigating we use this.",
+            text: "React Router is a programming language that enables the navigation among views of various componenets in a React Application.",
             correct: false, 
           }
         ]
