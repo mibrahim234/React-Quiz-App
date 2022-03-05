@@ -198,6 +198,51 @@ const data = [
             correct: false, 
           }
         ]
+      },
+      {
+        id: 10,
+        question: "Which React Router advantage is false?",
+        answers: [
+          {
+            text: "It enables navigation among different application views.",
+            correct: false,
+          },
+          {
+          text: "React Router allows you to make the app have less errors.",
+          correct: true, 
+          },
+          {
+            text: "It keeps the UI in sync with the URL.",
+            correct: false,
+          },
+          {
+            text: "It allows dynamic URLs, using URL paramaters, and nesting routes inside others.",
+            correct: false, 
+          }
+        ]
+      },
+      {
+        id: 11,
+        question: "What are events in React?",
+        answers: [
+          {
+            text: "Anything that a browser or user does, including changing a field or clicking a button. React events are not HTML events and are synthetic events.",
+            correct: true,
+          },
+          {
+          text: "Events in React are important things that happen in the application.",
+          correct: false, 
+          },
+          {
+            text: "Events in React do nothing.",
+            correct: false,
+          },
+          {
+            text: "Events in React are camelCase rather than lowercase.",
+            correct: false, 
+          }
+        ]
       }
+
 
   ]
