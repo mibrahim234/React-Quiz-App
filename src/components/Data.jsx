@@ -134,8 +134,30 @@ const data = [
         ]
       },
       {
-        id: 6,
-        question: "What is State? How is it used?",
+        id: 7,
+        question: "What is State in React? How is it used?",
+        answers: [
+          {
+            text: "State is an object managed by its own component, unlike props which are passed to a different component, and it stores property values for that component. In react, anytime the state changes, it triggers a re-render of the component. State is initialized in the constructor method and manipulating the state is done with the setState() method.",
+            correct: true,
+          },
+          {
+          text: "State is the particular condition that someone or something is in at a specific time.",
+          correct: false, 
+          },
+          {
+            text: "State are arguments passed into React components and are passed down similar to HTML attributes.",
+            correct: false,
+          },
+          {
+            text: "State is a a nation or territory considered as an organized political community under one government.",
+            correct: false, 
+          }
+        ]
+      },
+      {
+        id: 8,
+        question: "What is an arrow function in React? How is it used?",
         answers: [
           {
             text: "State is an object managed by its own component, unlike props which are passed to a different component, and it stores property values for that component. In react, anytime the state changes, it triggers a re-render of the component. State is initialized in the constructor method and manipulating the state is done with the setState() method.",
