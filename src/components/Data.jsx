@@ -160,21 +160,44 @@ const data = [
         question: "What is an arrow function in React? How is it used?",
         answers: [
           {
-            text: "State is an object managed by its own component, unlike props which are passed to a different component, and it stores property values for that component. In react, anytime the state changes, it triggers a re-render of the component. State is initialized in the constructor method and manipulating the state is done with the setState() method.",
-            correct: true,
-          },
-          {
-          text: "State is the particular condition that someone or something is in at a specific time.",
-          correct: false, 
-          },
-          {
-            text: "State are arguments passed into React components and are passed down similar to HTML attributes.",
+            text: "An arrow function is is used when trying to show direction or position in the code.",
             correct: false,
           },
           {
-            text: "State is a a nation or territory considered as an organized political community under one government.",
+          text: "An arrow function points towards an activity or purpose natural to or intended for a person or thing",
+          correct: false, 
+          },
+          {
+            text: "The arrow function is a syntactically alternative to regular function expressions but without its own bindings to the this keyword. Functional components are created using an arrow function format",
+            correct: true,
+          },
+          {
+            text: "An Arrow function is a directional function. When navigating we use this.",
+            correct: false, 
+          }
+        ]
+      },
+      {
+        id: 9,
+        question: "What is React Router?",
+        answers: [
+          {
+            text: "An arrow function is is used when trying to show direction or position in the code.",
+            correct: false,
+          },
+          {
+          text: "React Router is a standard library for routing in React and is used mainly for developing single page applications and offers dynamic routing. Some of its components are BrowserRouter, Route, Link, and Switch.",
+          correct: true, 
+          },
+          {
+            text: "The arrow function is a syntactically alternative to regular function expressions but without its own bindings to the this keyword. Functional components are created using an arrow function format",
+            correct: true,
+          },
+          {
+            text: "An Arrow function is a directional function. When navigating we use this.",
             correct: false, 
           }
         ]
       }
+
   ]
