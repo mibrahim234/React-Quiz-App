@@ -110,5 +110,27 @@ const data = [
             correct: false, 
           }
         ]
+      },
+      {
+        id: 6,
+        question: "What are Props?",
+        answers: [
+          {
+            text: "Props are conditional statements.",
+            correct: false,
+          },
+          {
+          text: "Props are React Components.",
+          correct: false, 
+          },
+          {
+            text: "Props are arguments passed into React components and are passed down similar to HTML attributes. Props are read-only and can be JavaScript expressions, string literals, callback functions, and other components",
+            correct: true,
+          },
+          {
+            text: "Props are congratulating someone or appreciating them for their skill or talent.",
+            correct: false, 
+          }
+        ]
       }
   ]
