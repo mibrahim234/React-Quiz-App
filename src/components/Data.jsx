@@ -286,7 +286,49 @@ const data = [
             correct: false, 
           }
         ]
+      },
+      {
+        id: 14,
+        question: "Which one of these are not a part of React's component lifecycle?",
+        answers: [
+          {
+            text: "Initial rendering phase: In this phase a component starts its life journey and makes its way to the DOM.",
+            correct: false,
+          },
+          {
+          text: "Unmounting phase: It is the final stage of the component. In this phase the component is destroyed and removed from the lifecycle.",
+          correct: false, 
+          },
+          {
+            text: "Updating phase: When the component is added to the DOM it can update and re-render when its props or state changes.",
+            correct: false,
+          },
+          {
+            text: "Recycle Phase: When the component is ready to be used again.",
+            correct: true, 
+          }
+        ]
+      },
+      {
+        id: 15,
+        question: "What is React?",
+        answers: [
+          {
+            text: "React is a front end JavaScript library which was developed by Facebook in the year 2013. It is used to develop reusable UI by following the component based approach.",
+            correct: true,
+          },
+          {
+          text: "React is a platform and framework for building single-page client applications using HTML and TypeScript. React is written in TypeScript.",
+          correct: false, 
+          },
+          {
+            text: "React is a progressive framework for building user interfaces. Unlike other monolithic frameworks, React is designed from the ground up to be incrementally adoptable.",
+            correct: false,
+          },
+          {
+            text: "React is an object-oriented computer programming language commonly used to create interactive effects within web browsers.",
+            correct: false, 
+          }
+        ]
       }
-
-
   ]
