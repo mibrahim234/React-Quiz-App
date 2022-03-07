@@ -242,6 +242,50 @@ const data = [
             correct: false, 
           }
         ]
+      },
+      {
+        id: 12,
+        question: "Which one of these is not a key feature of React?",
+        answers: [
+          {
+            text: "React is used as a backend framework.",
+            correct: true,
+          },
+          {
+          text: "React makes use of virtual DOM instead of the regular or real DOM.",
+          correct: false, 
+          },
+          {
+            text: "React is used for server side rendering.",
+            correct: false,
+          },
+          {
+            text: "React has uni-directional or one-way data flow or data binding.",
+            correct: false, 
+          }
+        ]
+      },
+      {
+        id: 13,
+        question: "Which one of these is not an advantage of using React?",
+        answers: [
+          {
+            text: "React helps enhance the performance of a web or mobile application",
+            correct: false,
+          },
+          {
+          text: "React can be used on the server as well as on the client side",
+          correct: false, 
+          },
+          {
+            text: "None of the above.",
+            correct: true,
+          },
+          {
+            text: "React can be integrated with other frameworks like Angular, Meteor and more",
+            correct: false, 
+          }
+        ]
       }
 
 
