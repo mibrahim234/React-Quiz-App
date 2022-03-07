@@ -159,3 +159,13 @@ flex-wrap: wrap;
     font-size: 20px;
     font-weight: 300;
 }
+
+/* Center text when game stops */
+.endText {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
