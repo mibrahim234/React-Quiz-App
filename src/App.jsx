@@ -8,6 +8,8 @@ function App() {
   // when true the game finishes, and score is shown 
   // or wrong answer is chosen 
   const [stop, setStop] = useState(false);
+  const [earned, setEarned] = useState("$ 0");
+
 
   const data = [
     {
@@ -97,7 +99,11 @@ function App() {
   return (
     <div className="app">
       <div className="main">
-        <div className="top">
+          {stop ?
+          ( <h1>You earned: {earned}</h1> )
+          : (
+            <>
+           <div className="top">
           <div className="timer">30</div>
         </div>
         <div className="bottom">
@@ -107,7 +113,9 @@ function App() {
           questionNumber={questionNumber}
           setQuestionNumber={setQuestionNumber}/> 
         </div>
-      
+      </>
+          )}
+          
       </div>
 
 
