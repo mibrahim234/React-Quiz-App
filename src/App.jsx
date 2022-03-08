@@ -2,11 +2,15 @@ import "./app.css";
 import { useEffect, useState, useMemo } from "react";
 import Trivia from "./components/Trivia"; 
 import Timer from "./components/Timer"; 
+import Start from "./components/Start"; 
+// import Data from "./components/Data"; 
 
 
 function App() {
 
-  const [questionNumber, setQuestionNumber] = useState(1)
+  const [questionNumber, setQuestionNumber] = useState(1);
+  const [username, setUsername] = useState(null);
+
   // when true the game finishes, and score is shown 
   // or wrong answer is chosen 
   const [stop, setStop] = useState(false);
@@ -111,6 +115,9 @@ function App() {
 
   return (
     <div className="app">
+    {username ? (
+      <> 
+      {/* Main Container */}
       <div className="main">
           {stop ?
           ( <h1 className="endText">You earned: {earned}</h1> )
@@ -133,8 +140,8 @@ function App() {
 
       </div>
 
-
-      {/* SideBar with Money Prize */}
+            
+      {/* Side Container*/}
       <div className="pyramid">
         <ul className="moneyList">
           {moneyPyramid.map((m) => (
@@ -145,6 +152,10 @@ function App() {
      ))}
         </ul>
       </div>
+      </>
+    ) : (
+       <Start setUsername={setUsername} />
+     )}
     </div>
   );
 }
