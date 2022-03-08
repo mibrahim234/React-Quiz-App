@@ -1,6 +1,8 @@
 import "./app.css";
 import { useEffect, useState, useMemo } from "react";
 import Trivia from "./components/Trivia"; 
+import Timer from "./components/Timer"; 
+
 
 function App() {
 
@@ -115,7 +117,9 @@ function App() {
           : (
             <>
            <div className="top">
-          <div className="timer">30</div>
+          <div className="timer">
+            <Timer setStop={setStop} questionNumber={questionNumber} />
+            </div>
         </div>
         <div className="bottom">
           {/* if question is correct go to next question */}
