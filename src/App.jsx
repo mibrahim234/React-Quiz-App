@@ -16,7 +16,7 @@ function App() {
   const [stop, setStop] = useState(false);
   const [earned, setEarned] = useState("$ 0");
 
-
+// const data = <Data /> 
   const data = [
     {
             id: 1,
@@ -84,7 +84,7 @@ function App() {
               }
             ]
           }
-  ]
+]
 
   // useMemo hook only runs when one of its dependencies update (can improve performance)
   const moneyPyramid = useMemo (()=> 

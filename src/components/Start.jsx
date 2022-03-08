@@ -17,3 +17,8 @@ export default function Start({setUsername}) {
         </div>
   )
 }
+
+// fix sidebar
+// fix css for answers
+// set up questions for data page 
+// set up function when user answers all questions

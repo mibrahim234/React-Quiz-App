@@ -1,4 +1,4 @@
-// // Page for the react questions and answers 
+ // Page for the react questions and answers 
 
 // const data = [
 //     {
