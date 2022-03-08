@@ -1,5 +1,5 @@
 import "./app.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import Trivia from "./components/Trivia"; 
 
 function App() {
@@ -79,7 +79,10 @@ function App() {
             ]
           }
   ]
-  const moneyPyramid = [
+
+  // useMemo hook only runs when one of its dependencies update (can improve performance)
+  const moneyPyramid = useMemo (()=> 
+    [
     { id: 1, amount: "$ 100"},
     { id: 2, amount: "$ 200"},
     { id: 3, amount: "$ 300"},
@@ -95,8 +98,10 @@ function App() {
     { id: 13, amount: "$ 250000"},
     { id: 14, amount: "$ 500000"},
     { id: 15, amount: "$ 1000000"},
-  ].reverse();
-
+  ].reverse(),
+   []
+   );
+    
   // chooses the the correct score for user 
   useEffect(()=>{
     questionNumber >1 && setEarned(moneyPyramid.find(m=> m.id === questionNumber -1).amount);
