@@ -155,7 +155,7 @@ const data = [
       question: "What is State in React? How is it used?",
       answers: [
         {
-          text: "State is an object managed by its own component, unlike props which are passed to a different component, and it stores property values for that component. In react, anytime the state changes, it triggers a re-render of the component. State is initialized in the constructor method and manipulating the state is done with the setState() method.",
+          text: "State is an object managed by its own component, and it stores property values for that component. In react, anytime the state changes, it triggers a re-render of the component.",
           correct: true,
         },
         {
