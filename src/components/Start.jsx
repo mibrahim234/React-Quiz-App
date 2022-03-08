@@ -18,7 +18,7 @@ export default function Start({setUsername}) {
   )
 }
 
-// fix sidebar
-// fix css for answers
-// set up questions for data page 
-// set up function when user answers all questions
+// add a restart game button when user gets their score 
+// import questions from data page
+// set up function when user answers all questions, if user gets all correct display message: you won congratulations! else ...
+// set up ReadMe
