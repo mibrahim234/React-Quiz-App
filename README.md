@@ -17,80 +17,47 @@ React Millionaire is an applicaion which tests users on their knowledge of React
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Start-Server](#start-server)
-* [Start-Client](#start-client)
 * [Technologies](#technologies)
 * [License](#license)
-* [Credits](#credits)
 * [Questions](#questions)
 * [Website](#website)
 * [Contribution](#contribution)
 
 
 ## Installation
-- Clone repo
-- Open integrated terminal on the root directory
-- Install all dependencies, in root with the following command. 
+In order to install this project, you must login to GitHub and go to https://github.com/mibrahim234/React-Quiz-App. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
-```
-npm install
-```
+Using SSH/HTML Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git team-generator repo, cd into the repo and type "open . for mac" Or "code . for windows" to open the folder which contains all files used for the website.
+
+Using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and and open it. All the files for the website will be within this folder. 
 
 ---
 
 ## Usage 
 
-- To use the application locally, enter npm run develop in the root of the repo to initialize the app. <br>
+- To use the application locally, enter npm start in the root of the repo to initialize the app. <br>
 Once the app has been initialized, react will open it up in the browser.
 
----
-### Start Server
-
-```
-npm start
-```
-
-for `nodemon server.js`:
-
-```
-npm run watch
-```
-### Start Client
-
-```
-npm start
-```
 ---
 
 ## Technologies
 - [React](https://reactjs.org/)
-- [GraphQL](https://graphql.org/)
-- [Mongo](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/docs/)
-- [Express](https://www.npmjs.com/package/express-session)
-- [JWT](https://jwt.io/)
+
 
 ## License
 Copyright (c) [2022]
 The license is MIT License. 
 Read more about it at https://opensource.org/licenses/MIT.
 
-## Credits
-Donnahue, Andrew, Terrence, and Jonathan
-
 ## Questions
-- Please reach out to us through github or by email. 
+- Please reach out through github or by email. 
 
 - [mibrahim234](https://github.com/mibrahim234) 
 
 - mohamm1417@gmail.com
 
-- [maxwillner](https://github.com/maxwillner) 
--   max.a.willner@gmail.com 
-
-
 ## Website
-[Link to the GIT repository](https://github.com/mibrahim234/Alpha-Dev)
+[Link to the GIT repository](https://github.com/mibrahim234/React-Quiz-App)
 
 
 ## Contribution
