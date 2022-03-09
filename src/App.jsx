@@ -27,7 +27,7 @@ const data = [
         correct: false,
       },
       {
-      text: "JSX stands for JavaScript XML and allows us to write HTML with JavaScript in React.",
+      text: "JSX stands for JavaScript XML and allows us to write HTML with JavaScript in React. JSX must have atleast one parent element",
       correct: true, 
       },
       {
@@ -89,7 +89,7 @@ const data = [
       question: "Why can't browsers read JSX?",
       answers: [
         {
-          text: "JSX is not valid JavaScript. Browsers can only read JavaScript objects",
+          text: "JSX is not valid JavaScript. Browsers can only read JavaScript objects. JSX uses a compiler so it can be read",
           correct: true,
         },
         {
@@ -97,11 +97,11 @@ const data = [
         correct: false, 
         },
         {
-          text: "JSX can be read by browsers.",
+          text: "JSX is an JavaScript extension and can be read by browsers",
           correct: false,
         },
         {
-          text: "JSX is valid JavaScript. Babel is not needed to do the compiling.",
+          text: "JSX makes code difficult and messy when writing large pieces of code",
           correct: false, 
         }
       ]
@@ -111,19 +111,19 @@ const data = [
       question: "How can you embed two or more components into one?",
       answers: [
         {
-          text: "Change the component to a JSX file to embed it.",
+          text: "Change the component to a JSX file to embed it",
           correct: false,
         },
         {
-        text: "React does not allow embedding components together.",
+        text: "React does not allow embedding components together",
         correct: false, 
         },
         {
-          text: "In React, you can embed another or mulitple components by calling it inside of a component's return statement.",
+          text: "In React, you can embed another or multiple components by calling it inside of a component's return statement",
           correct: true,
         },
         {
-          text: "Call the component before the return statement.",
+          text: "To embed a component call it before the return statement",
           correct: false, 
         }
       ]
@@ -133,11 +133,11 @@ const data = [
       question: "What are Props?",
       answers: [
         {
-          text: "Props are conditional statements.",
+          text: "Props are conditional statements",
           correct: false,
         },
         {
-        text: "Props are React Components.",
+        text: "Props are React components",
         correct: false, 
         },
         {
@@ -145,7 +145,7 @@ const data = [
           correct: true,
         },
         {
-          text: "Props are congratulating someone or appreciating them for their skill or talent.",
+          text: "Props are congratulating someone or appreciating them for their skill or talent",
           correct: false, 
         }
       ]
