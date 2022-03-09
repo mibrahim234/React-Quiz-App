@@ -20,7 +20,5 @@ export default function Start({setUsername}) {
 
 // add a restart game button when user gets their score 
 // import questions from data page
-// set up function when user answers all questions, if user gets all correct display message: you won congratulations! else ...
-// set up ReadMe
-// change up state question 
+// set up function when user answers all questions, if user gets all correct display message: you won congratulations! else ... return to game...
 // deploy to heroku 
