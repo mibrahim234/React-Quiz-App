@@ -331,19 +331,19 @@ const data = [
       question: "What is React?",
       answers: [
         {
-          text: "React is a front end JavaScript library which was developed by Facebook in the year 2013. It is used to develop reusable UI by following the component based approach.",
+          text: "React is a front end JavaScript library which was developed by Facebook in the year 2013. It is used to develop reusable UI by following the component based approach",
           correct: true,
         },
         {
-        text: "React is a platform and framework for building single-page client applications using HTML and TypeScript. React is written in TypeScript.",
+        text: "React is a platform and framework for building single-page client applications using HTML and TypeScript. React is written in TypeScript",
         correct: false, 
         },
         {
-          text: "React is a progressive framework for building user interfaces. Unlike other monolithic frameworks, React is designed from the ground up to be incrementally adoptable.",
+          text: "React is a progressive framework for building user interfaces. Unlike other monolithic frameworks, React is designed from the ground up to be incrementally adoptable",
           correct: false,
         },
         {
-          text: "React is an object-oriented computer programming language commonly used to create interactive effects within web browsers.",
+          text: "React is an object-oriented computer programming language commonly used to create interactive effects within web browsers",
           correct: false, 
         }
       ]
