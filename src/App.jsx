@@ -152,32 +152,32 @@ const data = [
     },
     {
       id: 7,
-      question: "What is State in React? How is it used?",
+      question: "What is State in React?",
       answers: [
         {
           text: "State is an object managed by its own component, and it stores property values for that component. In react, anytime the state changes, it triggers a re-render of the component.",
           correct: true,
         },
         {
-        text: "State is the particular condition that someone or something is in at a specific time.",
+        text: "State is the particular condition that someone or something is in at a specific time",
         correct: false, 
         },
         {
-          text: "State are arguments passed into React components and are passed down similar to HTML attributes.",
-          correct: false,
+          text: "Components can have “state” which is an object that determines how a component renders and behaves. Any data that you bring into your components will be part of the State",
+          correct: true,
         },
         {
-          text: "State is a a nation or territory considered as an organized political community under one government.",
+          text: "State is a a nation or territory considered as an organized political community under one government",
           correct: false, 
         }
       ]
     },
     {
       id: 8,
-      question: "What is an arrow function in React? How is it used?",
+      question: "What is an arrow function in React?",
       answers: [
         {
-          text: "An arrow function is is used when trying to show direction or position in the code.",
+          text: "An arrow function is used when trying to show direction or position in the code",
           correct: false,
         },
         {
@@ -189,7 +189,7 @@ const data = [
           correct: true,
         },
         {
-          text: "An Arrow function is a directional function. When navigating we use this.",
+          text: "An arrow function is a directional function. When navigating we use this.",
           correct: false, 
         }
       ]
@@ -207,7 +207,7 @@ const data = [
         correct: true, 
         },
         {
-          text: "React Router connects components for easy navigation",
+          text: "React Router uses a <a> and href tags",
           correct: false,
         },
         {
@@ -218,23 +218,23 @@ const data = [
     },
     {
       id: 10,
-      question: "Which React Router advantage is false?",
+      question: "What are React Hooks?",
       answers: [
         {
-          text: "It enables navigation among different application views.",
+          text: "A piece of metal or other material, curved or bent back at an angle, for catching hold of or hanging things on",
           correct: false,
         },
         {
-        text: "React Router allows you to make the app have less errors.",
+        text: "React Hooks are functions that let us hook into the React state and lifecycle features from function components",
         correct: true, 
         },
         {
-          text: "It keeps the UI in sync with the URL.",
+          text: "A thing designed to catch people's attention",
           correct: false,
         },
         {
-          text: "It allows dynamic URLs, using URL paramaters, and nesting routes inside others.",
-          correct: false, 
+          text: "Hooks are the new feature introduced in the React 16.8 version. It allows you to use state and other React features without writing a class",
+          correct: true, 
         }
       ]
     },
@@ -243,19 +243,19 @@ const data = [
       question: "What are events in React?",
       answers: [
         {
-          text: "Anything that a browser or user does, including changing a field or clicking a button. React events are not HTML events and are synthetic events.",
+          text: "Anything that a browser or user does, including changing a field or clicking a button",
           correct: true,
         },
         {
-        text: "Events in React are important things that happen in the application.",
+        text: "Events in React are important things that happen in the application",
         correct: false, 
         },
         {
-          text: "Events in React do nothing.",
+          text: "Events in React have no importance",
           correct: false,
         },
         {
-          text: "Events in React are camelCase rather than lowercase.",
+          text: "Events in React are camelCase rather than lowercase",
           correct: false, 
         }
       ]
