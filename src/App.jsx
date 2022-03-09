@@ -269,15 +269,15 @@ const data = [
           correct: true,
         },
         {
-        text: "React makes use of virtual DOM instead of the regular or real DOM.",
+        text: "React structures the view layer of the application when building a full stack app",
         correct: false, 
         },
         {
-          text: "React is used for server side rendering.",
+          text: "React is used for server side rendering",
           correct: false,
         },
         {
-          text: "React has uni-directional or one-way data flow or data binding.",
+          text: "React runs on the client side as a SPA(Single Page App)",
           correct: false, 
         }
       ]
@@ -291,7 +291,7 @@ const data = [
           correct: false,
         },
         {
-        text: "React can be used on the server as well as on the client side",
+        text: "React has reusuable components with their own state",
         correct: false, 
         },
         {
