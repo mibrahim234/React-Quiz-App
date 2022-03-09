@@ -2,7 +2,7 @@
 ## React Millionaire: built to test your React Knowledge
 
 ## Deployed Site 
-https://mibrahim234.github.io/React-Quiz-App/
+https://react-millionaire-quiz.herokuapp.com/
 
 ## Description 
 React Millionaire is an interactive web application built using React. 
@@ -40,6 +40,9 @@ Once the app has been initialized, react will open it up in the browser.
 
 ## Technologies
 - [React](https://reactjs.org/)
+- [Express](https://expressjs.com/)
+- [Heroku](https://heroku.com/)
+
 
 
 ## License
