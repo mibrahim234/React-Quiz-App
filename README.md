@@ -1,5 +1,5 @@
-# React Millionaire? ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
-## React Millionaire: built to test your React Knowledge
+# React Millionaire ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+## Built to test your React Knowledge
 
 ## Deployed Site 
 https://react-millionaire-quiz.herokuapp.com/
